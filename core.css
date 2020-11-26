@@ -1,0 +1,65 @@
+.pos{
+    color:red;
+}
+
+.trans-word, .word{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.trans-dfn{
+    font-size: 15px;
+}
+
+#dic-container{
+    overflow-y: scroll;
+    width: 360px;
+    max-height: 240px;
+    padding: 10px; margin: 0px !important;
+}
+
+/* width */
+#dic-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+#dic-container::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  opacity: 1;
+}
+
+/* Handle */
+#dic-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #822;
+}
+
+#dic-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#dic-container *{
+    max-width: 360px;
+    max-height: 240px;
+}
+
+#korean-lab{
+    display: inline;
+    position: relative;
+    font-weight: bold;
+    width:340px;
+    height:40px;
+    visibility: visible;
+    z-index: 1410065406;
+    margin: 10px;
+}
+
+.smart-korean-tooltip{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
